@@ -65,7 +65,7 @@ h1,
   font-size: 3.5em;
   margin-right: 2em;
   font-weight: bold;
-  color: white;
+  color: #FFDF00;
 }
 
 @media screen and (max-width: 576px) {
@@ -83,6 +83,10 @@ h1,
   }
 }
 
+#logo {
+  max-width: 400px;
+  margin-bottom: 15vh;
+}
 .container .row .left-wrap .left p .small {
   vertical-align: text-top;
   font-size: 0.5em;
@@ -118,6 +122,7 @@ h1,
 .container .right .mainInfo h1 {
   font-size: 2em;
   margin-left: 1em;
+  color: #4b0345;
 }
 
 @media screen and (max-width: 576px) {
@@ -129,7 +134,7 @@ h1,
 .container .right .mainInfo .slogan {
   width: 50vw;
   margin-top: 1.5em;
-  color: #6d6464;
+  color: #03194b;
 }
 
 @media screen and (max-width: 576px) {
@@ -152,7 +157,7 @@ h1,
   height: 40px;
   padding: 0;
   margin-right: -6px;
-  border: 1px solid black;
+  border: 1px solid #03194b;
   border-right: none;
   padding-left: 0.5em;
 }
@@ -160,12 +165,12 @@ h1,
 .container .right .mainInfo .form-subscribe button {
   width: 120px;
   height: 40px;
-  border: 1px solid black;
-  border-top: 2px solid black;
+  border: 1px solid #03194b;
+  border-top: 2px solid #03194b;
   border-radius: 0 25px 25px 0;
   padding: 0;
   color: white;
-  background-color: black;
+  background-color: #03194b;
 }
 
 @media screen and (max-width: 576px) {
@@ -204,7 +209,7 @@ h1,
 }
 
 .container .right .icon-list .icon a {
-  color: black;
+  color: #03194b;
   text-decoration: none;
 }
 
